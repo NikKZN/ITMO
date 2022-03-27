@@ -1,8 +1,7 @@
 .header__menu {
-  width: 825px;
-  justify-content: space-between;
-  margin: auto 0 auto 135px;
   display: flex;
   list-style-type: none;
   padding: 0;  
+  margin-right: 165px;
+  gap: 20.83px;
 }
