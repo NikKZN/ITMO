@@ -1,0 +1,11 @@
+.header__menu-link {  
+  min-width: 100px;
+  min-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu-link:first-child {
+  box-shadow: 0px 2px 0px #009FAC;
+}
