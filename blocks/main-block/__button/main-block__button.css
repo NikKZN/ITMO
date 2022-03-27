@@ -1,0 +1,21 @@
+.main-block__button {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	min-height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	max-width: 350px;
+	text-transform: uppercase;
+}
+
+.main-block__button:hover {
+	color: #009FAC;
+	border: 1px solid #009FAC;
+}

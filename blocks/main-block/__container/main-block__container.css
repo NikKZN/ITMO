@@ -1,0 +1,6 @@
+.main-block__container {
+	max-width: 1440px;
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+}

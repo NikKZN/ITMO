@@ -1,0 +1,19 @@
+.main-block__background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: -80px;
+	left: 0;
+	z-index: -1;
+}
+
+.main-block__background img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	object-fit: cover;
+	min-height: 1024px;
+}
