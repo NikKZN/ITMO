@@ -2,7 +2,16 @@
 
 @import url(../blocks/body/body.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-text/header__menu-text.css);
+
+@import url(../blocks/main-block/main-block.css);
+@import url(../blocks/main-block/__background/main-block__background.css);
+@import url(../blocks/main-block/__container/main-block__container.css);
+@import url(../blocks/main-block/__title/main-block__title.css);
+@import url(../blocks/main-block/__subtitle/main-block__subtitle.css);
+@import url(../blocks/main-block/__button/main-block__button.css);
+@import url(../blocks/main-block/__content/main-block__content.css);

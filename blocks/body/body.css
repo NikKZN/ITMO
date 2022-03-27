@@ -3,4 +3,5 @@
   margin: 0 auto;
   font-family: 'Open Sans', Arial, sans-serif;
   text-rendering: optimizeLegibility;
+  position: relative;
 }

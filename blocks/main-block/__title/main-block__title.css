@@ -1,0 +1,12 @@
+.main-block__title {
+	max-width: 445px;
+	margin: 0;
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 68px;
+	letter-spacing: 0.1px;
+}
+
+.main-block__title span {
+	font-weight: 400;
+}

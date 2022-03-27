@@ -1,0 +1,10 @@
+.main-block__subtitle {
+	margin: 0;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.1px;
+	max-width: 445px;
+	margin-top: 12px;
+	margin-bottom: 50px;
+}

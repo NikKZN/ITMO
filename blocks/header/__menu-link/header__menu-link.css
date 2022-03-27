@@ -7,5 +7,5 @@
 }
 
 .header__menu-link:first-child {
-  box-shadow: 0px 2px 0px #009FAC;
+	border-bottom: 2px solid #009FAC;
 }
