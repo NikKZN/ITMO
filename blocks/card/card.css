@@ -15,8 +15,12 @@
 }
 
 .card:hover {
-    transform: translate(0, -20px);
-    color: #FFF;
+     transform: translate(0, -20px);
+     color: #FFF;
+}
+
+.card:hover .card__button {
+    border-color: #FFF;
 }
 
 .card:hover:after {
