@@ -1,0 +1,4 @@
+.block__images {
+    display: flex;
+    gap: 12px;
+}

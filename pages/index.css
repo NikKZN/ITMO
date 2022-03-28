@@ -8,6 +8,24 @@
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-text/header__menu-text.css);
 
+@import url(../blocks/research-lab/research-lab.css);
+@import url(../blocks/block/__title/block__title.css);
+@import url(../blocks/block/__description/block__description.css);
+@import url(../blocks/block/__paragraph/block__paragraph.css);
+@import url(../blocks/block/__paragraph/_bold/block__paragraph_bold.css);
+@import url(../blocks/block/__content/block__content.css);
+@import url(../blocks/block/__images/block__images.css);
+@import url(../blocks/block/__image/block__image.css);
+
+@import url(../blocks/block/__cards/block__cards.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__bubble/card__bubble.css);
+@import url(../blocks/card/__title/card__title.css);
+
 @import url(../blocks/main-block/main-block.css);
 @import url(../blocks/main-block/__background/main-block__background.css);
 @import url(../blocks/main-block/__container/main-block__container.css);

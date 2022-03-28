@@ -1,0 +1,8 @@
+.research-lab {
+    min-height: 914px;
+    background-color: #E0F0FF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}

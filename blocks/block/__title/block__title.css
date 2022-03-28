@@ -1,0 +1,11 @@
+.block__title {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: .1px;
+    text-transform: uppercase;
+    color: #000D26;
+}
