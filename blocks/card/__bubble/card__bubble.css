@@ -8,3 +8,10 @@
     background-color: #FFF;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 1440px) {
+    .card__bubble {
+        width: 41px;
+        height: 41px;
+    }
+}

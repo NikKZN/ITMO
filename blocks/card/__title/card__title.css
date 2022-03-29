@@ -7,4 +7,14 @@
     line-height: 30px;
     text-align: center;
     color: inherit;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1440px) {
+    .card__title {
+        width: 126px;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: .05px;
+    }
 }

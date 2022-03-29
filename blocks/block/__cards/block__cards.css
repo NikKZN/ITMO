@@ -3,3 +3,18 @@
     gap: 30px;
     margin: 80px auto 0;
 }
+
+@media screen and (max-width: 1440px) {
+    .block__cards {
+        margin: 50px auto 0;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .block__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        margin: 20px auto 0;
+    }
+}

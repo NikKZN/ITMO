@@ -9,6 +9,7 @@
 @import url(../blocks/header/__menu-text/header__menu-text.css);
 
 @import url(../blocks/research-lab/research-lab.css);
+@import url(../blocks/research-lab/__vector/research-lab__vector.css);
 @import url(../blocks/block/__title/block__title.css);
 @import url(../blocks/block/__description/block__description.css);
 @import url(../blocks/block/__paragraph/block__paragraph.css);
@@ -25,6 +26,15 @@
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__bubble/card__bubble.css);
 @import url(../blocks/card/__title/card__title.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_open/popup_open.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__description/popup__description.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__exit-button/popup__exit-button.css);
+@import url(../blocks/popup/__exit-button/_vector/popup__exit-button_vector.css);
 
 @import url(../blocks/main-block/main-block.css);
 @import url(../blocks/main-block/__background/main-block__background.css);

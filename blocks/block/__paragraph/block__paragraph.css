@@ -5,4 +5,27 @@
     line-height: 26px;
     letter-spacing: .1px;
     color: inherit;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.block__paragraph:first-of-type {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 770px) {
+    .block__paragraph {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .block__paragraph {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .block__paragraph:first-of-type {
+        margin-bottom: 20px;
+    }
 }

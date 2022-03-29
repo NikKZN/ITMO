@@ -1,8 +1,22 @@
 .research-lab {
-    min-height: 914px;
     background-color: #E0F0FF;
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+    .research-lab {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .research-lab {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }

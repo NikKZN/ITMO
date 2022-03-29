@@ -7,3 +7,10 @@
     letter-spacing: .1px;
     color: inherit;
 }
+
+@media screen and (max-width: 1440px) {
+    .card__description {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
