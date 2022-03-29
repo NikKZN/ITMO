@@ -6,6 +6,7 @@
     text-align: center;
     letter-spacing: .1px;
     color: inherit;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1440px) {
