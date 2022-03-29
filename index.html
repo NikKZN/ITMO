@@ -11,19 +11,25 @@
 
 <body class="body">
 	<header class="header">
-		<div class="header__container">
-			<img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__logo">
-			<ul class="header__menu">
-				<li class="header__menu-link"><a href="" class="header__menu-text">О нас</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Лаборатория</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Проекты</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Образование</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Публикации</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Команда</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Связаться</a></li>
-			</ul>
-		</div>
-	</header>
+		<img src="./images/header/Burger menu.svg" alt="Меню." class="header__burger-menu">
+    <img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__logo">
+    <ul class="header__menu">
+      <li class="header__menu-link"><a href="#" class="header__menu-text">О нас</a></li>
+      <li class="header__menu-link"><a href="#" class="header__menu-text">Лаборатория</a></li>
+      <li class="header__menu-link"><a href="#" class="header__menu-text">Проекты</a></li>
+      <li class="header__menu-link header__menu-link_active">
+				<a href="#" class="header__menu-text">Образование</a>
+				<ul class="header__submenu" id="education-submenu">
+					<li class="header__submenu-link"><a href="#" class="header__submenu-text">Аспирантура</a></li>
+					<li class="header__submenu-link"><a href="#" class="header__submenu-text">Магистратура</a></li>
+				</ul>				
+			</li>
+      <li class="header__menu-link"><a href="#" class="header__menu-text">Публикации</a></li>
+      <li class="header__menu-link"><a href="#" class="header__menu-text">Команда</a></li>
+      <li class="header__menu-link"><a href="#" class="header__menu-text">Связаться</a></li>
+    </ul>		
+  </header>
+
 	<main class="content">
 		<section class="main-block">
 			<div class="main-block__background">
@@ -87,8 +93,9 @@
 					<button class="card__button" type="button" aria-label="Подробнее">Подробнее</button>
 				</div>
 			</div>
-
+      
 		</section>
+
 		<section class="popup">
 			<div class="popup__container">
 				<img class="popup__image" src="./images/popup/image43.png" alt="Изображение носит иллюстративный характер">
@@ -118,6 +125,31 @@
 				</div>
 				<button class="popup__exit-button" type="reset"><img class="popup__exit-button_vector" src="./images/popup/close.svg" alt="закрыть"></button>
 			</div>
+
+			<div class="burger-menu popup__burger-menu">
+				<div class="burger-menu__header">
+					<img src="./images/header/Burger menu.svg" alt="Логотип компании." class="burger-menu__logo">
+					<button class="burger-menu__close" type="button" aria-label="Закрыть."></button>
+				</div>
+				<nav class="burger-menu__nav">
+					<ul>
+						<li class="burger-menu__menu-link"><a href="#" class="burger-menu__menu-text">О нас</a></li>
+      			<li class="burger-menu__menu-link"><a href="#" class="burger-menu__menu-text">Лаборатория</a></li>
+      			<li class="burger-menu__menu-link"><a href="#" class="burger-menu__menu-text">Проекты</a></li>
+  			    <li class="burger-menu__menu-link burger-menu__menu-link_active">
+							<a href="#" class="burger-menu__menu-text">Образование</a>
+							<ul class="burger-menu__submenu" id="education-submenu">
+								<li class="burger-menu__submenu-link"><a href="#" class="burger-menu__submenu-text">Аспирантура</a></li>
+								<li class="burger-menu__submenu-link"><a href="#" class="burger-menu__submenu-text">Магистратура</a></li>
+							</ul>				
+						</li>
+    			  <li class="burger-menu__menu-link"><a href="#" class="burger-menu__menu-text">Публикации</a></li>
+    			  <li class="burger-menu__menu-link"><a href="#" class="burger-menu__menu-text">Команда</a></li>
+    			  <li class="burger-menu__menu-link"><a href="#" class="burger-menu__menu-text">Связаться</a></li>
+					</ul>
+				</nav>
+			</div>
+
 		</section>
 	</main>
 
