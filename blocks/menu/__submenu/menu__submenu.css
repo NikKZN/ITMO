@@ -1,4 +1,4 @@
-.header__submenu {
+.menu__submenu {
   list-style-type: none;
   padding: 50px 0 0;
   position: absolute;
@@ -7,6 +7,6 @@
   z-index: 3;
 }
 
-.header__submenu:hover {
+.menu__submenu:hover {
   display: block;
 }

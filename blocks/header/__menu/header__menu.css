@@ -1,20 +1,3 @@
 .header__menu {
   display: flex;
-  list-style-type: none;
-  width: 825px;
-  justify-content: space-between;
-  margin: auto 0 auto 135px;
-  padding: 0;
-}
-
-@media screen and (max-width: 1300px) {
-  .header__menu {
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .header__menu {
-    display: none;    
-  }
 }

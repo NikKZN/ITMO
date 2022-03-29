@@ -1,10 +1,10 @@
-.header__submenu-link {
+.submenu__link {
   width: 120px;
   height: 28px;
   background-color: #000D26;
 }
 
-.header__submenu-link:hover {
+.submenu__link:hover {
   background-color: #009FAC;
   cursor: pointer;
 }
