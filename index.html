@@ -10,17 +10,17 @@
 </head>
 
 <body class="body">
-	<header class="header">
+	<header class="body__header header">
 		<img src="./images/header/Burger menu.svg" alt="Меню." class="header__burger-menu">
     <img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__logo">
-		<nav class="menu header__menu">
+		<nav class="header__menu menu">
     	<ul class="menu__links">
     	  <li class="menu__link"><a href="#" class="menu__text">О нас</a></li>
     	  <li class="menu__link"><a href="#" class="menu__text">Лаборатория</a></li>
     	  <li class="menu__link"><a href="#" class="menu__text">Проекты</a></li>
     	  <li class="menu__link menu__link_active">
 					<a href="#" class="menu__text">Образование</a>
-					<ul class="submenu menu__submenu" id="education-submenu">
+					<ul class="menu__submenu submenu" id="education-submenu">
 						<li class="submenu__link"><a href="#" class="submenu__text">Аспирантура</a></li>
 						<li class="submenu__link"><a href="#" class="submenu__text">Магистратура</a></li>
 					</ul>				
@@ -32,7 +32,7 @@
 		</nav>	
   </header>
 
-	<main class="content">
+	<main class="body__content content">
 		<section class="main-block">
 			<div class="main-block__background">
 				<img src="./images/main-block/Background.png" alt="Фоновое изображние">
@@ -45,6 +45,7 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="research-lab">
 			<h2 class="block__title">Industrial Ai research lab</h2>
 			<div class="block__content">
@@ -98,7 +99,37 @@
       
 		</section>
 
-		<section class="popup">
+		<section class="content__block-3 block-3">
+
+		</section>
+
+		<section class="content__block-4 block-4">
+
+		</section>
+
+		<section class="content__block-5 block-5">
+
+		</section>
+
+		<section class="content__block-6 block-6">
+
+		</section>
+
+		<section class="content__block-7 block-7">
+
+		</section>
+
+		<section class="content__block-8 block-8">
+
+		</section>	
+	</main>
+
+	<footer class="body__footer footer">
+
+	</footer>
+
+	<section class="body__popups popups">
+		<div class="popup">
 			<div class="popup__container">
 				<img class="popup__image" src="./images/popup/image43.png" alt="Изображение носит иллюстративный характер">
 				<div>
@@ -127,34 +158,33 @@
 				</div>
 				<button class="popup__exit-button" type="reset"><img class="popup__exit-button_vector" src="./images/popup/close.svg" alt="закрыть"></button>
 			</div>
+		</div>
 
-			<div class="burger popup__burger">
-				<div class="burger__header">
-					<img src="./images/header/Burger menu.svg" alt="Логотип компании." class="burger__logo">
-					<button class="burger__close" type="button" aria-label="Закрыть."></button>
-				</div>
-				<nav class="menu burger__menu">
-					<ul>
-						<li class="menu__link"><a href="#" class="menu__text">О нас</a></li>
-						<li class="menu__link"><a href="#" class="menu__text">Лаборатория</a></li>
-						<li class="menu__link"><a href="#" class="menu__text">Проекты</a></li>
-						<li class="menu__link menu__link_active">
-							<a href="#" class="menu__text">Образование</a>
-							<ul class="submenu menu__submenu" id="education-submenu">
-								<li class="submenu__link"><a href="#" class="submenu__text">Аспирантура</a></li>
-								<li class="submenu__link"><a href="#" class="submenu__text">Магистратура</a></li>
-							</ul>				
-						</li>
-						<li class="menu__link"><a href="#" class="menu__text">Публикации</a></li>
-						<li class="menu__link"><a href="#" class="menu__text">Команда</a></li>
-						<li class="menu__link"><a href="#" class="menu__text">Связаться</a></li>
-					</ul>
-				</nav>	
+		<div class="burger popups__burger">
+			<div class="burger__header">
+				<img src="./images/header/header-logo.svg" alt="Логотип компании." class="burger__logo">
+				<button class="burger__close" type="button" aria-label="Закрыть."></button>
 			</div>
-
-		</section>
-	</main>
-
+			<nav class="menu burger__menu">
+				<ul class="menu__links">
+					<li class="menu__link"><a href="#" class="menu__text">О нас</a></li>
+					<li class="menu__link"><a href="#" class="menu__text">Лаборатория</a></li>
+					<li class="menu__link"><a href="#" class="menu__text">Проекты</a></li>
+					<li class="menu__link menu__link_active">
+						<a href="#" class="menu__text">Образование</a>
+						<ul class="submenu menu__submenu" id="education-submenu">
+							<li class="submenu__link"><a href="#" class="submenu__text">Аспирантура</a></li>
+							<li class="submenu__link"><a href="#" class="submenu__text">Магистратура</a></li>
+						</ul>				
+					</li>
+					<li class="menu__link"><a href="#" class="menu__text">Публикации</a></li>
+					<li class="menu__link"><a href="#" class="menu__text">Команда</a></li>
+					<li class="menu__link"><a href="#" class="menu__text">Связаться</a></li>
+				</ul>
+			</nav>	
+		</div>
+	</section>
 </body>
+
 <script src="./pages/index.js" type="module"></script>
 </html>
