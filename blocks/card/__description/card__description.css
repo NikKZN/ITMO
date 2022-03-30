@@ -1,0 +1,17 @@
+.card__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: .1px;
+    color: inherit;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+    .card__description {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}

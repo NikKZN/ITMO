@@ -1,0 +1,17 @@
+.block__images {
+    display: flex;
+    gap: 12px;
+}
+
+@media screen and (max-width: 1440px) {
+    .block__images {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width:  770px) {
+    .block__images {
+        width: 288px;
+    }
+}
+

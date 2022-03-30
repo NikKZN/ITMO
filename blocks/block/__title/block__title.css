@@ -1,0 +1,26 @@
+.block__title {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: .1px;
+    text-transform: uppercase;
+    color: #000D26;
+}
+
+@media screen and (max-width: 1440px) {
+    .block__title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .block__title {
+        width: 288px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

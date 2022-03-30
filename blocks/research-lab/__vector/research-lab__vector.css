@@ -1,0 +1,14 @@
+.research-lab__vector {
+    position: absolute;
+    box-sizing: border-box;
+    width: 24px;
+    height: 22.56px;
+    top: 334px;
+    left: 129px;
+}
+
+@media screen and (max-width: 1440px) {
+    .research-lab__vector {
+        display: none;
+    }
+}
