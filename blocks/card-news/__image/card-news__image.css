@@ -1,0 +1,12 @@
+.card-news__image {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+@media screen and (max-width: 767.98px) {
+	.card-news__image {
+		right: 22px;
+		width: 24px;
+	}
+}
