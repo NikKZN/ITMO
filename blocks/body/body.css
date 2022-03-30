@@ -1,7 +1,6 @@
-.body {
-  max-width: 1440px;
-  margin: 0 auto;
+.body {  
   font-family: 'Open Sans', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   position: relative;
+  background-color: #616161;
 }

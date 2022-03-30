@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/body/body.css);
-
+@import url(../blocks/body/__header/body__header.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__burger-menu/header__burger-menu.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -15,7 +15,16 @@
 @import url(../blocks/submenu/submenu.css);
 @import url(../blocks/submenu/__link/submenu__link.css);
 @import url(../blocks/submenu/__text/submenu__text.css);
-
+@import url(../blocks/popups/popups.css);
+@import url(../blocks/popups/__burger/popups__burger.css);
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/__header/burger__header.css);
+@import url(../blocks/burger/__logo/burger__logo.css);
+@import url(../blocks/burger/__close/burger__close.css);
+@import url(../blocks/burger/__menu/burger__menu.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/body/__content/body__content.css);
+@import url(../blocks/body/__popups/body__popups.css);
 @import url(../blocks/research-lab/research-lab.css);
 @import url(../blocks/research-lab/__vector/research-lab__vector.css);
 @import url(../blocks/block/__title/block__title.css);
