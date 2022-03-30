@@ -1,0 +1,21 @@
+.card-news__container {
+	padding: 20px 20px 30px;
+	background: #E0F0FF;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+@media screen and (max-width: 991.98px) {
+	.card-news__container {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 767.98px) {
+	.card-news__container {
+		padding: 16px;
+	}
+}

@@ -15,3 +15,24 @@
 @import url(../blocks/main-block/__subtitle/main-block__subtitle.css);
 @import url(../blocks/main-block/__button/main-block__button.css);
 @import url(../blocks/main-block/__content/main-block__content.css);
+
+@import url(../blocks/words-about-us/words-about-us.css);
+@import url(../blocks/words-about-us/__container/words-about-us__container.css);
+@import url(../blocks/words-about-us/__title-block/words-about-us__title-block.css);
+@import url(../blocks/words-about-us/__arrows/words-about-us__arrows.css);
+@import url(../blocks/words-about-us/__arrow/words-about-us__arrow.css);
+@import url(../blocks/words-about-us/__pagination/words-about-us__pagination.css);
+@import url(../blocks/words-about-us/__title/words-about-us__title.css);
+@import url(../blocks/words-about-us/__subtitle/words-about-us__subtitle.css);
+@import url(../blocks/words-about-us/__slider-block/words-about-us__slider-block.css);
+@import url(../blocks/words-about-us/__slider/words-about-us__slider.css);
+
+@import url(../blocks/card-news/card-news.css);
+@import url(../blocks/card-news/__container/card-news__container.css);
+@import url(../blocks/card-news/__image/card-news__image.css);
+@import url(../blocks/card-news/__title/card-news__title.css);
+@import url(../blocks/card-news/__date/card-news__date.css);
+@import url(../blocks/card-news/__heading/card-news__heading.css);
+@import url(../blocks/card-news/__text/card-news__text.css);
+
+@import url(../blocks/swiper-slide/swiper-slide.css);

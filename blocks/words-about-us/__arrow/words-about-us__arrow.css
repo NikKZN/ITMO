@@ -1,0 +1,26 @@
+.words-about-us__arrow {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #001337;
+	box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: background-color 0.3s ease 0s;
+} 
+
+.words-about-us__arrow:hover {
+	background-color: #009FAC;
+}
+
+@media screen and (max-width: 1200px) {
+	.words-about-us__arrow {
+		width: 46px;
+		height: 46px;
+	}
+	.words-about-us__arrow img {
+		width: 26px;
+	}
+}
