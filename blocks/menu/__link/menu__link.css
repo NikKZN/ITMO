@@ -1,11 +1,12 @@
-.header__menu-link {  
+.menu__link {  
   min-width: 100px;
   min-height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.header__menu-link:first-child {
+.menu__link:first-child {
 	border-bottom: 2px solid #009FAC;
 }

@@ -1,0 +1,23 @@
+.block__content {
+    display: flex;
+    margin: 60px auto 0;
+    width: 1110px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+    .block__content {
+        width: 690px;
+        margin: 30px auto 0;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .block__content {
+        flex-direction: column-reverse;
+        width: 288px;
+        margin: 20px auto 0;
+    }
+}
+

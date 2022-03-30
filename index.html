@@ -11,21 +11,29 @@
 </head>
 
 <body class="body">
-	<header class="header">
-		<div class="header__container">
-			<img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__logo">
-			<ul class="header__menu">
-				<li class="header__menu-link"><a href="" class="header__menu-text">О нас</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Лаборатория</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Проекты</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Образование</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Публикации</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Команда</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Связаться</a></li>
-			</ul>
-		</div>
-	</header>
-	<main class="content">
+	<header class="body__header header">
+		<img src="./images/header/Burger menu.svg" alt="Меню." class="header__burger-menu">
+    <img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__logo">
+		<nav class="header__menu menu">
+    	<ul class="menu__links">
+    	  <li class="menu__link"><a href="#" class="menu__text">О нас</a></li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Лаборатория</a></li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Проекты</a></li>
+    	  <li class="menu__link menu__link_active">
+					<a href="#" class="menu__text">Образование</a>
+					<ul class="menu__submenu submenu" id="education-submenu">
+						<li class="submenu__link"><a href="#" class="submenu__text">Аспирантура</a></li>
+						<li class="submenu__link"><a href="#" class="submenu__text">Магистратура</a></li>
+					</ul>				
+				</li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Публикации</a></li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Команда</a></li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Связаться</a></li>
+    	</ul>
+		</nav>	
+  </header>
+
+	<main class="body__content content">
 		<section class="main-block">
 			<div class="main-block__background">
 				<img src="./images/main-block/Background.png" alt="Фоновое изображние">
@@ -38,6 +46,7 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="words-about-us">
 			<div class="words-about-us__container">
 				<div class="words-about-us__title-block">
@@ -229,6 +238,148 @@
 	</main>
 	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 	<script src="./script/slider.js"></script>
+
+
+		<section class="research-lab">
+			<h2 class="block__title">Industrial Ai research lab</h2>
+			<div class="block__content">
+				<img class="research-lab__vector" src="./images/research-lab/Vector.svg" alt=" ">
+				<div class="block__description">
+					<p class="block__paragraph block__paragraph_bold">Центр национальной технологической инициативы (НТИ), получивший государственную поддержку по
+						направлению "Технологии машинного обучения и когнитивные технологии".</p>
+					<p class="block__paragraph">Мы изучаем проблемы и выявлям, когда мы работаем вместе с нашими клиентам, новые решения находят, не
+						задумываясь. Работая таким образом и проявляя гибкость, мы можем поддерживать новый подход для удовлетворения потребностей наших клиентов.</p>
+				</div>
+				<div class="block__images">
+					<img class="block__image" src="./images/research-lab/image%2038.png" alt="Изображение носит иллюстративный характер">
+					<img class="block__image" src="./images/research-lab/image%2035.png" alt="Изображение носит иллюстративный характер">
+				</div>
+			</div>
+
+			<div class="block__cards">
+				<div class="card" style="background-image: url(./images/research-lab/Project.png)">
+					<h3 class="card__title">Анализ социальных данных</h3>
+					<div class="card__bubble">
+						<img class="card__image" alt="#" src="./images/research-lab/project.svg">
+					</div>
+					<p class="card__description">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+					<button class="card__button" type="button" aria-label="Подробнее">Подробнее</button>
+				</div>
+				<div class="card" style="background-image: url(./images/research-lab/MachineLearning.png)">
+					<h3 class="card__title">Инфраструктура больших данных</h3>
+					<div class="card__bubble">
+						<img class="card__image" alt="#" src="./images/research-lab/brain.svg">
+					</div>
+					<p class="card__description">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+					<button class="card__button" type="button" aria-label="Подробнее">Подробнее</button>
+				</div>
+				<div class="card" style="background-image: url(./images/research-lab/Data.png)">
+					<h3 class="card__title">Облачные<br/>вычисления</h3>
+					<div class="card__bubble">
+						<img class="card__image" alt="#" src="./images/research-lab/micro.svg">
+					</div>
+					<p class="card__description">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+					<button class="card__button" type="button" aria-label="Подробнее">Подробнее</button>
+				</div>
+				<div class="card" style="background-image: url(./images/research-lab/Robot.png)">
+					<h3 class="card__title">QA<br/>системы</h3>
+					<div class="card__bubble">
+						<img class="card__image" alt="#" src="./images/research-lab/robot.svg">
+					</div>
+					<p class="card__description">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+					<button class="card__button" type="button" aria-label="Подробнее">Подробнее</button>
+				</div>
+			</div>
+      
+		</section>
+
+		<section class="content__block-3 block-3">
+
+		</section>
+
+		<section class="content__block-4 block-4">
+
+		</section>
+
+		<section class="content__block-5 block-5">
+
+		</section>
+
+		<section class="content__block-6 block-6">
+
+		</section>
+
+		<section class="content__block-7 block-7">
+
+		</section>
+
+		<section class="content__block-8 block-8">
+
+		</section>	
+	</main>
+
+	<footer class="body__footer footer">
+
+	</footer>
+
+	<section class="body__popups popups">
+		<div class="popup">
+			<div class="popup__container">
+				<img class="popup__image" src="./images/popup/image43.png" alt="Изображение носит иллюстративный характер">
+				<div>
+					<h3 class="popup__title">Анализ социальных данных</h3>
+					<p class="popup__description">Учебные лаборатории оснащены современным компьютерным оборудованием,
+						техническими средствами защиты информации, программными и программно-аппаратными комплексами средств защиты,
+						разработанными ведущими производителями: Positive Technologies, Infotecs, SearchInform, «Лаборатория ППШ» и других вендоров.
+						Некоторые из лабораторных установок являются уникальными по своим исследовательским задачам.
+					</p>
+
+					<p class="popup__description">Начиная с первого курса бакалавриата, студенты погружаются в область их будущей профессиональной деятельности,
+						активно развивают навыки программирования, исследования защищенности информации в независимости от формы ее представления,
+						проектирования комплексных интегрированных систем защиты информации, проходят различные виды практик.
+					</p>
+
+					<p class="popup__description">В состав факультета входит ряд научных лабораторий и центров, в которых проводятся исследования:</p>
+
+					<ul class="popup__description">
+						<li>безопасные киберфизические системы;</li>
+						<li>разработка средств защиты информации;</li>
+						<li>функциональная безопасность беспилотных транспортных средств;</li>
+						<li>теория информации и кодирования;</li>
+						<li>информационные процессы в Интернет и безопасность виртуального пространства;</li>
+						<li>интеллектуальные защищенные системы мультиагентного взаимодействия и пр.</li>
+					</ul>
+				</div>
+				<button class="popup__exit-button" type="reset"><img class="popup__exit-button_vector" src="./images/popup/close.svg" alt="закрыть"></button>
+			</div>
+		</div>
+
+		<div class="popups__burger burger">
+			<div class="burger__header">
+				<img src="./images/header/header-logo.svg" alt="Логотип компании." class="burger__logo">
+				<button class="burger__close" type="button" aria-label="Закрыть."></button>
+			</div>
+			<nav class="menu burger__menu">
+				<ul class="menu__links">
+					<li class="menu__link"><a href="#" class="menu__text">О нас</a></li>
+					<li class="menu__link"><a href="#" class="menu__text">Лаборатория</a></li>
+					<li class="menu__link"><a href="#" class="menu__text">Проекты</a></li>
+					<li class="menu__link menu__link_active">
+						<a href="#" class="menu__text">Образование</a>
+						<ul class="submenu menu__submenu" id="education-submenu">
+							<li class="submenu__link"><a href="#" class="submenu__text">Аспирантура</a></li>
+							<li class="submenu__link"><a href="#" class="submenu__text">Магистратура</a></li>
+						</ul>				
+					</li>
+					<li class="menu__link"><a href="#" class="menu__text">Публикации</a></li>
+					<li class="menu__link"><a href="#" class="menu__text">Команда</a></li>
+					<li class="menu__link"><a href="#" class="menu__text">Связаться</a></li>
+				</ul>
+			</nav>	
+		</div>
+	</section>
+
 </body>
 
+<script src="./pages/index.js" type="module"></script>
 </html>
