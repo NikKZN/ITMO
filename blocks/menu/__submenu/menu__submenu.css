@@ -1,0 +1,12 @@
+.menu__submenu {
+  list-style-type: none;
+  padding: 50px 0 0;
+  position: absolute;
+  top: 12px;
+  display: none;
+  z-index: 3;
+}
+
+.menu__submenu:hover {
+  display: block;
+}

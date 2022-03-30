@@ -3,3 +3,24 @@
   height: 54px;
   margin: auto 0 auto 165px;
 }
+
+@media screen and (max-width: 1300px) {
+  .header__logo {
+    margin: auto 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__logo {
+    margin: auto;
+    width: 95px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header__logo {
+    width: 71px;
+    height: 24px;
+  }
+}

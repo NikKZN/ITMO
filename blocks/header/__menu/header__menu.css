@@ -1,7 +1,3 @@
 .header__menu {
   display: flex;
-  list-style-type: none;
-  padding: 0;  
-  margin-right: 165px;
-  gap: 20.83px;
 }
