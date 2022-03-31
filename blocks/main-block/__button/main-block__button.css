@@ -19,3 +19,17 @@
 	color: #009FAC;
 	border: 1px solid #009FAC;
 }
+
+@media screen and (max-width: 991.98px) {
+	.main-block__button  {
+		max-width: 330px;
+	}
+}
+
+@media screen and (max-width: 767.98px) {
+	.main-block__button   {
+		font-size: 14px;
+		line-height: 19px;
+		min-height: 44px;
+	}
+}
