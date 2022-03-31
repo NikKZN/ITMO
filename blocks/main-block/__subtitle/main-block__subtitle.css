@@ -8,3 +8,17 @@
 	margin-top: 12px;
 	margin-bottom: 50px;
 }
+
+@media screen and (max-width: 991.98px) {
+	.main-block__subtitle  {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 767.98px) {
+	.main-block__subtitle  {
+		font-size: 14px;
+		line-height: 19px;
+		max-width: 345px;
+	}
+}
