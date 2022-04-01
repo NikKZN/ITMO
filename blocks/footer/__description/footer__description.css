@@ -1,0 +1,7 @@
+.footer__description{
+display: flex;
+ width: 263px;
+  flex-direction: column;
+ margin: 0;
+
+}

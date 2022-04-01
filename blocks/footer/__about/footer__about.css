@@ -1,0 +1,6 @@
+.footer__about{
+max-width: 95px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}

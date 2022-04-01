@@ -1,0 +1,18 @@
+.footer__author{
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  opacity: 0.5;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height:19.07px;
+  margin: 7.5px 0 80px 165px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__author {
+    margin-left: 39px;
+
+  }
+}
