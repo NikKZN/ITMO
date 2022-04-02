@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6723181b-6103-4420-82e3-23cdeb3b6409" name="Default Changelist" comment="Работа над footer в процессе">
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__links/footer__links.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__about/footer__about.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__about/footer__about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__author/footer__author.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__author/footer__author.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__contacts/footer__contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__contacts/footer__contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__content/footer__content.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__content/footer__content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__description-copyright/footer__description-copyright.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__description-copyright/footer__description-copyright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__logo/footer__logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__logo/footer__logo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="26tFVO0PHhXmV4FQxeuG6dWFHaL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../how-to-learn/index.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Olia\dev\ITMO" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6723181b-6103-4420-82e3-23cdeb3b6409" name="Default Changelist" comment="" />
+      <created>1648234998932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648234998932</updated>
+      <workItem from="1648235001315" duration="1353000" />
+      <workItem from="1648296358854" duration="599000" />
+      <workItem from="1648317742522" duration="1056000" />
+      <workItem from="1648366822972" duration="596000" />
+      <workItem from="1648389555000" duration="8924000" />
+      <workItem from="1648494077738" duration="595000" />
+      <workItem from="1648579403065" duration="595000" />
+      <workItem from="1648661296139" duration="611000" />
+      <workItem from="1648746698525" duration="601000" />
+      <workItem from="1648835027189" duration="5309000" />
+      <workItem from="1648883688285" duration="3224000" />
+    </task>
+    <task id="LOCAL-00001" summary="Работа над footer в процессе">
+      <created>1648843304903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648843304903</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Работа над footer в процессе" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа над footer в процессе" />
+  </component>
+</project>
