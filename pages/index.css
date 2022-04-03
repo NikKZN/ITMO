@@ -3,15 +3,20 @@
 @import url(../blocks/body/body.css);
 @import url(../blocks/body/__header/body__header.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__burger-menu/header__burger-menu.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/menu/menu.css);
+@import url(../blocks/header/__logo/_hide/header__logo_hide.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav/_open/header__nav_open.css);
+@import url(../blocks/header/__nav-head/header__nav-head.css);
+@import url(../blocks/header/__nav-logo/header__nav-logo.css);
+@import url(../blocks/header/__button-close/header__button-close.css);
 @import url(../blocks/header/__menu/header__menu.css);
-@import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link/_active/menu__link_active.css);
 @import url(../blocks/menu/__text/menu__text.css);
-@import url(../blocks/menu/__submenu/menu__submenu.css);
+@import url(../blocks/header/__submenu/header__submenu.css);
 @import url(../blocks/submenu/submenu.css);
 @import url(../blocks/submenu/__link/submenu__link.css);
 @import url(../blocks/submenu/__text/submenu__text.css);
@@ -22,6 +27,7 @@
 @import url(../blocks/burger/__logo/burger__logo.css);
 @import url(../blocks/burger/__close/burger__close.css);
 @import url(../blocks/burger/__menu/burger__menu.css);
+@import url(../blocks/burger/__open/burger__open.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/body/__content/body__content.css);
 @import url(../blocks/body/__popups/body__popups.css);
@@ -78,4 +84,3 @@
 @import url(../blocks/card-news/__text/card-news__text.css);
 
 @import url(../blocks/swiper-slide/swiper-slide.css);
-
