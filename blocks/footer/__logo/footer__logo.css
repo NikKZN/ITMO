@@ -9,3 +9,11 @@ margin: 80px 0 37.5px 165px;
 
   }
 }
+
+
+@media screen and (max-width: 767px) {
+  .footer__logo {
+    margin-left: 16px;
+
+  }
+}

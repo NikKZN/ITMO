@@ -4,3 +4,10 @@ max-width: 95px;
   flex-direction: column;
   margin-left: 150px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__about:first-child  {
+    margin-left: 0;
+
+  }
+}

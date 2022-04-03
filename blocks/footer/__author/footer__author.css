@@ -16,3 +16,10 @@
 
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__author {
+    margin-left: 16px;
+
+  }
+}

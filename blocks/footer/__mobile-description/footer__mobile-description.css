@@ -1,0 +1,19 @@
+.footer__mobile-description{
+  display: none;
+
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__mobile-description {
+    display: none;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__mobile-description {
+    display: flex;
+    color: white;
+
+  }
+}

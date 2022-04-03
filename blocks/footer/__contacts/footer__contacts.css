@@ -2,3 +2,10 @@
   margin-left: 150px;
   width: 206px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__contacts {
+    margin-left: 0px;
+
+  }
+}
