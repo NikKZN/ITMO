@@ -12,18 +12,22 @@
 
 <body class="body">
 	<header class="body__header header">
-		<img src="./images/header/Burger menu.svg" alt="Меню." class="header__burger-menu">
-    <img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__logo">
-		<nav class="header__menu menu">
-    	<ul class="menu__links">
+		<img src="./images/header/Burger-menu.svg" alt="Меню." class="header__burger">
+    <img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__logo">			
+		<nav class="header__nav">
+			<div class="header__nav-head">
+				<img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__nav-logo">
+				<button class="header__button-close" type="button" aria-label="Закрыть."></button>
+			</div>
+    	<ul class="header__menu menu">
     	  <li class="menu__link"><a href="#" class="menu__text">О нас</a></li>
     	  <li class="menu__link"><a href="#" class="menu__text">Лаборатория</a></li>
     	  <li class="menu__link"><a href="#" class="menu__text">Проекты</a></li>
     	  <li class="menu__link menu__link_active">
 					<a href="#" class="menu__text">Образование</a>
-					<ul class="menu__submenu submenu" id="education-submenu">
-						<li class="submenu__link"><a href="#" class="submenu__text">Аспирантура</a></li>
+					<ul class="header__submenu submenu" id="education-submenu">
 						<li class="submenu__link"><a href="#" class="submenu__text">Магистратура</a></li>
+						<li class="submenu__link"><a href="#" class="submenu__text">Аспирантура</a></li>
 					</ul>				
 				</li>
     	  <li class="menu__link"><a href="#" class="menu__text">Публикации</a></li>
@@ -354,32 +358,10 @@
 			</div>
 		</div>
 
-		<div class="popups__burger burger">
-			<div class="burger__header">
-				<img src="./images/header/header-logo.svg" alt="Логотип компании." class="burger__logo">
-				<button class="burger__close" type="button" aria-label="Закрыть."></button>
-			</div>
-			<nav class="menu burger__menu">
-				<ul class="menu__links">
-					<li class="menu__link"><a href="#" class="menu__text">О нас</a></li>
-					<li class="menu__link"><a href="#" class="menu__text">Лаборатория</a></li>
-					<li class="menu__link"><a href="#" class="menu__text">Проекты</a></li>
-					<li class="menu__link menu__link_active">
-						<a href="#" class="menu__text">Образование</a>
-						<ul class="submenu menu__submenu" id="education-submenu">
-							<li class="submenu__link"><a href="#" class="submenu__text">Аспирантура</a></li>
-							<li class="submenu__link"><a href="#" class="submenu__text">Магистратура</a></li>
-						</ul>				
-					</li>
-					<li class="menu__link"><a href="#" class="menu__text">Публикации</a></li>
-					<li class="menu__link"><a href="#" class="menu__text">Команда</a></li>
-					<li class="menu__link"><a href="#" class="menu__text">Связаться</a></li>
-				</ul>
-			</nav>	
-		</div>
 	</section>
 
 </body>
 
 <script src="./pages/index.js" type="module"></script>
+<script src="./pages/header.js"></script>
 </html>

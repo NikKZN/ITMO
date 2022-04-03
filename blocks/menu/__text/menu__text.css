@@ -13,3 +13,19 @@
 .menu__text:hover {
   opacity: 0.7;
 }
+
+@media screen and (max-width: 1000px) {
+  .menu__text {
+    margin-left: 0;
+    line-height: 43px;
+    letter-spacing: 0.5px;
+    margin-left: 40px;
+    min-height: 44px;
+  } 
+}
+
+@media screen and (max-width: 430px) {
+  .menu__text {
+    margin-left: 16px;
+  }
+}

@@ -1,10 +1,27 @@
 .submenu__link {
   width: 120px;
-  height: 28px;
+  min-height: 28px;
   background-color: #000D26;
 }
 
 .submenu__link:hover {
   background-color: #009FAC;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .submenu__link {
+    min-height: 44px;
+    width: 330px;
+  }
+
+  .submenu__link:hover {
+    background-color: #001337;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .submenu__link {
+    width: 320px;
+  }
 }

@@ -1,9 +1,0 @@
-.popups__burger {
-  width: 330px;
-  height: 492px;
-  background-color: #000D26;
-  position: fixed;
-  top: 5px;
-  z-index: 5;
-  display: none;
-}

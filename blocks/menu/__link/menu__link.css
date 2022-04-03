@@ -1,5 +1,5 @@
 .menu__link {  
-  min-width: 100px;
+  width: 100px;
   min-height: 44px;
   display: flex;
   justify-content: center;
@@ -9,4 +9,26 @@
 
 .menu__link:first-child {
 	border-bottom: 2px solid #009FAC;
+}
+
+@media screen and (max-width: 1000px) {
+  .menu__link {
+    flex-direction: column;
+    width: 330px;
+    align-items: flex-start;
+  }
+
+  .menu__link:first-child {
+    border-bottom: none;
+  }
+
+  .menu__link:hover {
+    background-color: #001337;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .menu__link {
+    width: 320px;
+  }
 }

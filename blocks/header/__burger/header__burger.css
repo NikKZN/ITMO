@@ -1,0 +1,28 @@
+.header__burger {
+  display: none;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 21px;
+  top: 0;    
+  cursor: pointer;
+  padding: 19px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__burger {
+    display: block;    
+  }
+
+  .header__burger:hover {
+    opacity: 0.6;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header__burger {
+    left: 6px;
+    top: 0;
+    padding: 10px;
+  }
+}

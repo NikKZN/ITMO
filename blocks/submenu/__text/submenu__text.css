@@ -8,3 +8,18 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1000px) {
+  .submenu__text {
+    margin-left: 40px;
+    font-size: 12px;
+    line-height: 43px;
+    letter-spacing: 0.4px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .submenu__text {
+    margin-left: 16px;
+  }
+}

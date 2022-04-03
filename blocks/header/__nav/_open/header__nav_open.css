@@ -1,0 +1,11 @@
+.header__nav_open {
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  .header__nav_open {
+    visibility: visible;
+    left: 0;
+  }
+}
