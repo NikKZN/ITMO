@@ -5,7 +5,7 @@ margin: 80px 0 37.5px 165px;
 
 @media screen and (max-width: 1023px) {
   .footer__logo {
-    margin-left: 39px;
+    margin: 40px 0 30px 39px;
 
   }
 }
@@ -13,7 +13,9 @@ margin: 80px 0 37.5px 165px;
 
 @media screen and (max-width: 767px) {
   .footer__logo {
-    margin-left: 16px;
+    margin: 40px 0 40px 16px;
+    width: 98px;
+    height: 33px;
 
   }
 }

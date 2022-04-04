@@ -3,9 +3,18 @@
   width: 206px;
 }
 
+@media screen and (max-width: 1023px) {
+  .footer__contacts {
+    margin-left: 38px;
+    margin-top: 80px;
+
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer__contacts {
-    margin-left: 0px;
+    margin-left: 0;
+    margin-top: 40px;
 
   }
 }

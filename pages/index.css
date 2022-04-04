@@ -81,6 +81,7 @@
 @import url(../blocks/footer/__about-link/footer__about-link.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__mobile-description/footer__mobile-description.css);
+@import url(../blocks/footer/__information/footer__information.css);
 
 
 @import url(../blocks/words-about-us/words-about-us.css);
