@@ -64,6 +64,26 @@
 @import url(../blocks/main-block/__content/main-block__content.css);
 
 
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__about-link/footer__about-link.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__development-heading/footer__development-heading.css);
+@import url(../blocks/footer/__rols-heading/footer__rols-heading.css);
+@import url(../blocks/footer/__contacts-info/footer__contacts-info.css);
+@import url(../blocks/footer/__contacts-heading/footer__contacts-heading.css);
+@import url(../blocks/footer/__description-copyright/footer__description-copyright.css);
+@import url(../blocks/footer/__about-heading/footer__about-heading.css);
+@import url(../blocks/footer/__about-link/footer__about-link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__mobile-description/footer__mobile-description.css);
+@import url(../blocks/footer/__information/footer__information.css);
+
+
 @import url(../blocks/words-about-us/words-about-us.css);
 @import url(../blocks/words-about-us/__container/words-about-us__container.css);
 @import url(../blocks/words-about-us/__title-block/words-about-us__title-block.css);

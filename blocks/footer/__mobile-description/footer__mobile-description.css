@@ -1,0 +1,27 @@
+.footer__mobile-description{
+  display: none;
+
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__mobile-description {
+    display: none;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__mobile-description {
+    display: flex;
+    color: white;
+    width: 140px;
+    margin: 40px 0 40px 49px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16.34px;
+
+  }
+}

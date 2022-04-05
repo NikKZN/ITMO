@@ -1,0 +1,28 @@
+.footer__content{
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 165px;
+  display: flex;
+  width: 1110px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .footer__content {
+    margin-left: 39px;
+    width: 690px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__content {
+    margin-left: 16px;
+    width: 288px;
+    flex-direction: column;
+  }
+}
