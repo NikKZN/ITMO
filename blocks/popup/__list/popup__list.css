@@ -1,0 +1,16 @@
+.popup__list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+@media screen and (max-width: 770px) {
+    .popup__list {
+        grid-area: lst;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0;
+    }
+}

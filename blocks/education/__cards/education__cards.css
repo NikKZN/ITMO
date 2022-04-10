@@ -1,0 +1,44 @@
+.education__cards {
+    width: calc(1169px + 1169px + 135px + 135px);
+    position: relative;
+    left: calc(50% - 545px);
+    margin: 60px auto 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1270px) {
+    .education__cards {
+        margin: 40px auto 30px;
+        left: calc(50% - 575px);
+    }
+}
+
+@media screen and (min-width: 970px) and (max-width: 1250px) {
+    .education__cards {
+        left: calc(50% - 335px);
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .education__cards {
+        width: calc(690px + 690px + 39px + 39px);
+        left: calc(50% - 335px);
+        margin: 40px 0 30px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .education__cards {
+        left: calc(50% - 345px);
+    }
+}
+
+@media screen and (max-width: 706px) {
+    .education__cards {
+        left: calc(50% - 145px);
+        width: calc(288px + 288px + 39px + 39px);
+        margin: 40px 0 30px;
+    }
+}

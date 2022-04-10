@@ -1,0 +1,21 @@
+.education__button {
+    border: none;
+    border-radius: 10px;
+    width: 279px;
+    padding: 16.5px 0;
+    background-color: #E0F0FF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 770px) {
+    .education__button {
+        width: 232px;
+    }
+}
+
+
+@media screen and (max-width: 670px) {
+    .education__button {
+        width: 149px;
+    }
+}

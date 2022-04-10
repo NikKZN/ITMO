@@ -1,5 +1,4 @@
 .popup__exit-button {
-    position: absolute;
     width: 40px;
     height: 40px;
     display: flex;
@@ -7,7 +6,26 @@
     align-items: center;
     background-color: rgba(0,0,0,0);
     border: none;
-    right: 20px;
-    top: 20px;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
+.popup__exit-button:hover {
+    border: 1px solid #000D26;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+    .popup__exit-button {
+        width: 32px;
+        height: 32px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .popup__exit-button {
+        grid-area: btn;
+        width: 24px;
+        height: 24px;
+    }
+}
+

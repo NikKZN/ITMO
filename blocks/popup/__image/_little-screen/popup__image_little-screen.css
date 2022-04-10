@@ -1,0 +1,12 @@
+.popup__image_little-screen {
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    .popup__image_little-screen {
+        display: block;
+        width: 268px;
+        height: 160px;
+        margin: 15px auto 10px;
+    }
+}

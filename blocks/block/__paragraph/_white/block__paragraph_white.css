@@ -1,0 +1,23 @@
+.block__paragraph_white {
+    color: #FFF;
+    width: 920px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1250px) {
+    .block__paragraph_white {
+        width: 690px;
+    }
+}
+
+@media screen and (max-width: 971px) {
+    .block__paragraph_white {
+        width: 690px;
+    }
+}
+
+@media screen and (max-width: 707px) {
+    .block__paragraph_white {
+        width: 288px;
+    }
+}

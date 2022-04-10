@@ -4,3 +4,16 @@
     margin-right: 20px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1440px) {
+    .popup__image {
+        width: 199px;
+        height: 414px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .popup__image {
+        display: none;
+    }
+}

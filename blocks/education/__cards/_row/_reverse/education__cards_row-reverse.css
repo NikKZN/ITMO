@@ -1,0 +1,23 @@
+.education__cards_row-reverse {
+    transform: translate(-1439px, 0);
+    transition: transform .3s ease;
+}
+
+@media screen and (max-width: 1250px) {
+    .education__cards_row-reverse {
+        transform: translate(-1922px, 0);
+    }
+}
+
+@media screen and (max-width: 971px) {
+    .education__cards_row-reverse {
+        transform: translate(-768px, 0);
+    }
+}
+
+@media screen and (max-width: 707px) {
+    .education__cards_row-reverse {
+        transform: translate(-366px, 0);
+    }
+}
+
