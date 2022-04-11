@@ -74,3 +74,14 @@
 @import url(../blocks/partnership/__cell/_type/_sber/partnership__cell_type_sber.css);
 @import url(../blocks/partnership/__cell/_type/_siemens/partnership__cell_type_siemens.css);
 @import url(../blocks/partnership/__logo/partnership__logo.css);
+
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/_mail/form__input_mail.css);
+@import url(../blocks/form/__input/_name/form__input_name.css);
+@import url(../blocks/form/__input/_surname/form__input_surname.css);
+@import url(../blocks/form/__input/_tel/form__input_tel.css);
+@import url(../blocks/form/__input-error/form__input-error.css);
+@import url(../blocks/form/__textarea/form__textarea.css);
+@import url(../blocks/form/__button/form__button.css);

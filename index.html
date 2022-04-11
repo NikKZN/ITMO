@@ -134,7 +134,7 @@
 			</p>
 
 			<div class="education__cards">
-				<div id="ed-card-1" class="education__card">
+				<div class="education__card">
 					<div class="education__description ">
 						<p class="block__paragraph_bold">Образовательные программы аспирантуры в области МО и КТ</p>
 						<ul class="education__text">
@@ -151,7 +151,7 @@
 					</div>
 					<img class="education__image" src="./images/education/image.png" alt="Наши выпускники">
 				</div>
-				<div id="ed-card-2" class="education__card">
+				<div class="education__card">
 					<div class="education__description">
 						<p class="block__paragraph_bold">Образовательные программы аспирантуры в области МО и КТ</p>
 						<ul class="education__text">
@@ -199,6 +199,51 @@
 				<li class="partnership__cell partnership__cell_type_huawei"><img class="partnership__logo" src="./images/partnership/huawei.svg" alt="Наш партнёр"></li>
 				<li class="partnership__cell partnership__cell_type_mailru"><img class="partnership__logo" src="./images/partnership/MailLogo.svg" alt="Наш партнёр"></li>
 			</ul>
+		</section>
+		<section class="feedback">
+			<h2 class="block__title block__title_white">Всегда на связи</h2>
+			<p class="block__paragraph block__paragraph_white">
+				По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам,
+				написать на почту или оставтиь свое сообщение через форму обратной связи.
+			</p>
+			<form class="form">
+				<input class="form__input form__input_name"
+					   type="text"
+					   placeholder="Имя"
+					   minlength="2"
+					   maxlength="40"
+					   value=""
+				>
+				<span class="form__input-error"></span>
+				<input class="form__input form__input_surname"
+					   type="text"
+					   placeholder="Фамилия"
+					   minlength="2"
+					   maxlength="40"
+					   value=""
+				>
+				<span class="form__input-error"></span>
+				<input class="form__input form__input_tel"
+					   type="tel"
+					   placeholder="Телефон"
+					   value=""
+				>
+				<span class="form__input-error"></span>
+				<input class="form__input form__input_mail"
+					   type="email"
+					   placeholder="E-mail"
+					   value=""
+				>
+				<span class="form__input-error"></span>
+				<textarea class="form__textarea"
+						  type="text"
+						  placeholder="Сообщение"
+						  minlength="2"
+						  maxlength="240"
+				></textarea>
+				<span class="form__input-error"></span>
+				<button class="form__button">отправить</button>
+			</form>
 
 		</section>
 	</main>
