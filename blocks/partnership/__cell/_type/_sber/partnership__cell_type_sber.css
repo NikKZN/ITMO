@@ -1,0 +1,17 @@
+.partnership__cell_type_sber {
+    width: 194px;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .partnership__cell_type_sber {
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .partnership__cell_type_sber {
+        width: 148px;
+        height: 20px;
+    }
+}

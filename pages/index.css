@@ -63,3 +63,14 @@
 @import url(../blocks/main-block/__subtitle/main-block__subtitle.css);
 @import url(../blocks/main-block/__button/main-block__button.css);
 @import url(../blocks/main-block/__content/main-block__content.css);
+
+@import url(../blocks/partnership/partnership.css);
+@import url(../blocks/partnership/__list/partnership__list.css);
+@import url(../blocks/partnership/__cell/partnership__cell.css);
+@import url(../blocks/partnership/__cell/_type/_gazprom/partnership__cell_type_gazprom.css);
+@import url(../blocks/partnership/__cell/_type/_huawei/partnership__cell_type_huawei.css);
+@import url(../blocks/partnership/__cell/_type/_mailru/partnership__cell_type_mailru.css);
+@import url(../blocks/partnership/__cell/_type/_rosneft/partnership__cell_type_rosneft.css);
+@import url(../blocks/partnership/__cell/_type/_sber/partnership__cell_type_sber.css);
+@import url(../blocks/partnership/__cell/_type/_siemens/partnership__cell_type_siemens.css);
+@import url(../blocks/partnership/__logo/partnership__logo.css);

@@ -1,0 +1,19 @@
+.partnership__cell_type_huawei {
+    width: 219px;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .partnership__cell_type_huawei {
+        width: 146px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .partnership__cell_type_huawei  {
+        width: 91px;
+        height: 20px;
+        order: 10;
+    }
+}
