@@ -206,43 +206,52 @@
 				По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам,
 				написать на почту или оставтиь свое сообщение через форму обратной связи.
 			</p>
-			<form class="form">
+			<form class="form" method="POST" novalidate>
 				<input class="form__input form__input_name"
 					   type="text"
 					   placeholder="Имя"
 					   minlength="2"
 					   maxlength="40"
 					   value=""
+					   id="name-input"
+					   required
 				>
-				<span class="form__input-error"></span>
+				<span class="form__input-error name-input-error"></span>
 				<input class="form__input form__input_surname"
 					   type="text"
 					   placeholder="Фамилия"
 					   minlength="2"
 					   maxlength="40"
 					   value=""
+					   id="surname-input"
+					   required
 				>
-				<span class="form__input-error"></span>
+				<span class="form__input-error surname-input-error"></span>
 				<input class="form__input form__input_tel"
 					   type="tel"
 					   placeholder="Телефон"
 					   value=""
+					   id="tel-input"
+					   required
 				>
-				<span class="form__input-error"></span>
+				<span class="form__input-error tel-input-error"></span>
 				<input class="form__input form__input_mail"
 					   type="email"
 					   placeholder="E-mail"
 					   value=""
+					   id="mail-input"
+					   required
 				>
-				<span class="form__input-error"></span>
-				<textarea class="form__textarea"
+				<span class="form__input-error mail-input-error"></span>
+				<textarea class=" form__input form__textarea"
 						  type="text"
 						  placeholder="Сообщение"
 						  minlength="2"
 						  maxlength="240"
+						  id="text-input"
 				></textarea>
-				<span class="form__input-error"></span>
-				<button class="form__button">отправить</button>
+				<span class="form__input-error text-input-error"></span>
+				<button class="form__button" type="submit">отправить</button>
 			</form>
 
 		</section>
