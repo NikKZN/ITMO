@@ -1,22 +1,26 @@
 .block__paragraph_bold {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: .1px;
-    color: #000D26;
+    color: inherit;
+    margin: 0;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1250px) {
     .block__paragraph_bold {
         font-size: 14px;
         line-height: 20px;
     }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 706px) {
     .block__paragraph_bold {
         font-size: 12px;
         line-height: 16px;
+    }
+    .education__description > .block__paragraph_bold {
+        order: 2;
     }
 }

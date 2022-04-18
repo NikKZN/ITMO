@@ -1,0 +1,17 @@
+.popup__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 21px;
+}
+
+@media screen and (max-width: 1440px) {
+    .popup__header {
+        margin: 0 0 27px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .popup__title {
+        margin: 0 auto;
+    }
+}

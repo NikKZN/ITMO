@@ -1,0 +1,4 @@
+.education__cards_row {
+    transform: translate(0, 0);
+    transition: transform .3s ease;
+}

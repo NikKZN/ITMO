@@ -1,0 +1,25 @@
+.partnership__cell {
+    list-style-type: none;
+    height: 48px;
+    margin-left: 50px;
+}
+
+.partnership__cell:nth-of-type(1), .partnership__cell:nth-of-type(6) {
+    margin: 0;
+}
+
+.partnership__cell:nth-of-type(1) {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 770px) {
+    .partnership__cell:nth-of-type(2), .partnership__cell:nth-of-type(9){
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .partnership__cell {
+        margin: 0 5px 23px;
+    }
+}

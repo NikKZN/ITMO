@@ -1,0 +1,23 @@
+.education__image {
+    width: 445px;
+    height: 364px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .education__image {
+        width: 280px;
+        height: 282px;
+    }
+}
+
+
+@media screen and (max-width: 706px) {
+    .education__image {
+        width: 256px;
+        height: 160px;
+        order: -1;
+        margin-bottom: 12px;
+    }
+}

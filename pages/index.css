@@ -34,9 +34,11 @@
 @import url(../blocks/research-lab/research-lab.css);
 @import url(../blocks/research-lab/__vector/research-lab__vector.css);
 @import url(../blocks/block/__title/block__title.css);
+@import url(../blocks/block/__title/_white/block__title_white.css);
 @import url(../blocks/block/__description/block__description.css);
 @import url(../blocks/block/__paragraph/block__paragraph.css);
 @import url(../blocks/block/__paragraph/_bold/block__paragraph_bold.css);
+@import url(../blocks/block/__paragraph/_white/block__paragraph_white.css);
 @import url(../blocks/block/__content/block__content.css);
 @import url(../blocks/block/__images/block__images.css);
 @import url(../blocks/block/__image/block__image.css);
@@ -49,12 +51,34 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_open/popup_open.css);
+@import url(../blocks/popup/__header/popup__header.css);
 @import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__list/popup__list.css);
+@import url(../blocks/popup/__paragraph/popup__paragraph.css);
 @import url(../blocks/popup/__description/popup__description.css);
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__image/_little-screen/popup__image_little-screen.css);
 @import url(../blocks/popup/__exit-button/popup__exit-button.css);
 @import url(../blocks/popup/__exit-button/_vector/popup__exit-button_vector.css);
+
+
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__cards/education__cards.css);
+@import url(../blocks/education/__cards/_row/education_cards_row.css);
+@import url(../blocks/education/__cards/_row/_reverse/education__cards_row-reverse.css);
+@import url(../blocks/education/__card/education__card.css);
+@import url(../blocks/education/__card/_hide/education__card_hide.css);
+@import url(../blocks/education/__image/education__image.css);
+@import url(../blocks/education/__description/education__description.css);
+@import url(../blocks/education/__text/education__text.css);
+@import url(../blocks/education/__buttons/education__buttons.css);
+@import url(../blocks/education/__button/education__button.css);
+@import url(../blocks/education/__button/_active/education__button_active.css);
+@import url(../blocks/education/__link/education__link.css);
+
+
+
 @import url(../blocks/main-block/main-block.css);
 @import url(../blocks/main-block/__background/main-block__background.css);
 @import url(../blocks/main-block/__container/main-block__container.css);
@@ -63,6 +87,28 @@
 @import url(../blocks/main-block/__button/main-block__button.css);
 @import url(../blocks/main-block/__content/main-block__content.css);
 
+@import url(../blocks/partnership/partnership.css);
+@import url(../blocks/partnership/__list/partnership__list.css);
+@import url(../blocks/partnership/__cell/partnership__cell.css);
+@import url(../blocks/partnership/__cell/_type/_gazprom/partnership__cell_type_gazprom.css);
+@import url(../blocks/partnership/__cell/_type/_huawei/partnership__cell_type_huawei.css);
+@import url(../blocks/partnership/__cell/_type/_mailru/partnership__cell_type_mailru.css);
+@import url(../blocks/partnership/__cell/_type/_rosneft/partnership__cell_type_rosneft.css);
+@import url(../blocks/partnership/__cell/_type/_sber/partnership__cell_type_sber.css);
+@import url(../blocks/partnership/__cell/_type/_siemens/partnership__cell_type_siemens.css);
+@import url(../blocks/partnership/__logo/partnership__logo.css);
+
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/_mail/form__input_mail.css);
+@import url(../blocks/form/__input/_name/form__input_name.css);
+@import url(../blocks/form/__input/_surname/form__input_surname.css);
+@import url(../blocks/form/__input/_tel/form__input_tel.css);
+@import url(../blocks/form/__input-error/form__input-error.css);
+@import url(../blocks/form/__textarea/form__textarea.css);
+@import url(../blocks/form/__button/form__button.css);
+=======
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
@@ -104,3 +150,4 @@
 @import url(../blocks/card-news/__text/card-news__text.css);
 
 @import url(../blocks/swiper-slide/swiper-slide.css);
+

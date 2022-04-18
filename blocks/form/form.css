@@ -1,0 +1,38 @@
+.form {
+    margin: 60px auto 0;
+    width: 1113px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+            "name surname text"
+            "tel mail text"
+            ". button .";
+    row-gap: 20px;
+    column-gap: 29px;
+}
+
+@media screen and (max-width: 1130px) {
+    .form {
+        width: 688px;
+        grid-template-columns: repeat(3, 210px);
+    }
+}
+
+@media screen and (max-width: 704px) {
+    .form {
+        margin: 3px auto 0;
+        width: 288px;
+        grid-template-columns: 288px;
+        row-gap: 12px;
+        grid-template-areas:
+            "name"
+            "surname"
+            "tel"
+            "mail"
+            "text"
+            "text"
+            "button";
+    }
+
+}

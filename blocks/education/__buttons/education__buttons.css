@@ -1,0 +1,22 @@
+.education__buttons {
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #E0F0FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 540px;
+}
+
+
+@media screen and (max-width: 770px) {
+    .education__buttons {
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width: 670px) {
+    .education__buttons {
+        width: 288px;
+    }
+}

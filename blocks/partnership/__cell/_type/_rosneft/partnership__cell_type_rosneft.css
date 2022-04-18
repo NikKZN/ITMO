@@ -1,0 +1,19 @@
+.partnership__cell_type_rosneft {
+    width: 142px;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .partnership__cell_type_rosneft {
+        width: 94px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .partnership__cell_type_rosneft {
+        width: 89px;
+        height: 30px;
+        order: -1;
+    }
+}

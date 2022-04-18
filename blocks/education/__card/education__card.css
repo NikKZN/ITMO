@@ -1,0 +1,28 @@
+.education__card {
+    width: 1169px;
+    padding: 30px;
+    background: #FFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    visibility: visible;
+    box-sizing: border-box;
+
+}
+
+
+@media screen and (max-width: 1250px) {
+    .education__card {
+        width: 690px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 706px) {
+    .education__card {
+        width: 288px;
+        flex-direction: column;
+        padding: 16px;
+    }
+}

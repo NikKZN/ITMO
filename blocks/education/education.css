@@ -1,0 +1,8 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    background-color: #009FAC;
+    padding: 80px 0;
+    overflow: hidden;
+    position: relative;
+}

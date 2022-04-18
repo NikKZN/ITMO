@@ -1,0 +1,34 @@
+.popup__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .1px;
+    text-align: left;
+    color: #000;
+    margin: 0;
+}
+
+.popup__paragraph:nth-of-type(2) {
+    margin: 0 0 20px;
+}
+
+@media screen and (max-width: 1440px) {
+    .popup__paragraph {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .popup__paragraph:first-of-type {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .popup__paragraph {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .popup__paragraph:nth-of-type(2) {
+        display: none;
+    }
+}

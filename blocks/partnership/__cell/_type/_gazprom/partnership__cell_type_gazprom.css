@@ -1,0 +1,18 @@
+.partnership__cell_type_gazprom {
+    width: 122px;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .partnership__cell_type_gazprom {
+        width: 74px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .partnership__cell_type_gazprom  {
+        width: 46px;
+        height: 20px;
+    }
+}
