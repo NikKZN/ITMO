@@ -1,0 +1,4 @@
+.menu__link_active:hover #education-submenu {
+  display: block;
+}
+

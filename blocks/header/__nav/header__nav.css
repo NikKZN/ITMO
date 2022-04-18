@@ -1,0 +1,26 @@
+.header__nav {
+  display: flex;
+  margin: 0 auto;  
+}
+
+@media screen and (max-width: 1000px) {
+  .header__nav {
+    visibility: hidden;
+    position: absolute;
+    flex-direction: column;
+    top: 60px;
+    left: -330px;
+    background: #000D26;
+    width: 330px;
+    height: 492px;
+    z-index: 5;
+    transition: all 0.2s linear;  
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header__nav {
+    width: 320px;
+    top: 44px;    
+  }
+}

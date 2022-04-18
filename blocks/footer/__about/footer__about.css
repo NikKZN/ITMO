@@ -1,0 +1,25 @@
+.footer__about{
+max-width: 95px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+@media screen and (max-width: 1023px) {
+  .footer__about  {
+    margin-left: 40px;
+    margin-top: 80px;
+
+  }
+}
+@media screen and (max-width: 767px) {
+
+  .footer__about  {
+    margin-top: 40px;
+
+  }
+  .footer__about:first-child  {
+    margin-left: 0;
+
+
+  }
+}

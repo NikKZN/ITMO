@@ -1,0 +1,19 @@
+.card-news__heading {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	color: #001337;
+	margin-bottom: 40px;
+	-webkit-line-clamp: 3;
+	display: -webkit-box; 
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 767.98px) {
+	.card-news__heading {
+		font-size: 14px;
+		line-height: 19px;
+		margin-bottom: 24px;
+	}
+}

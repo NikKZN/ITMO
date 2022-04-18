@@ -1,0 +1,28 @@
+.header__button-close {
+  width: 32px;
+  height: 32px;
+  margin: auto 16px auto 0;
+  padding: 30px;
+  background-color: #000D26;
+  background-image: url(../../../images/header/close.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 32px 32px;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__button-close {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header__button-close {
+    width: 24px;
+    height: 24px;
+    padding: 22px;
+  }
+}

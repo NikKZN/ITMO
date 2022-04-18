@@ -1,0 +1,25 @@
+.footer__description-copyright{
+  margin: 0 0 30px 0
+
+}
+
+
+@media screen and (max-width: 1023px) {
+  .footer__description-copyright:first-child {
+    width: 241px;
+
+  }
+  .footer__description-copyright:last-child {
+    width: 211px;
+
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer__description-copyright:last-child {
+    font-size: 0;
+
+  }
+}
+

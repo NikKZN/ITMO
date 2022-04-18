@@ -1,7 +1,23 @@
 .header__menu {
   display: flex;
   list-style-type: none;
-  padding: 0;  
-  margin-right: 165px;
-  gap: 20.83px;
+  width: 825px;
+  justify-content: space-between;
+  margin: auto 0 auto 135px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .header__menu {
+    margin: auto;
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__menu {
+    display: block;
+    width: 330px;
+    margin-top: 17px;
+  }
 }

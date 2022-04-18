@@ -2,29 +2,42 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="pages/index.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content=" ">
-  <title>ИТМО</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="pages/index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content=" ">
+	<title>ИТМО</title>
 </head>
 
 <body class="body">
-	<header class="header">
-		<div class="header__container">
-			<img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__logo">
-			<ul class="header__menu">
-				<li class="header__menu-link"><a href="" class="header__menu-text">О нас</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Лаборатория</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Проекты</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Образование</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Публикации</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Команда</a></li>
-				<li class="header__menu-link"><a href="" class="header__menu-text">Связаться</a></li>
-			</ul>
-		</div>
-	</header>
-	<main class="content">
+	<header class="body__header header">
+		<img src="./images/header/Burger-menu.svg" alt="Меню." class="header__burger">
+    <img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__logo">
+		<nav class="header__nav">
+			<div class="header__nav-head">
+				<img src="./images/header/header-logo.svg" alt="Логотип компании." class="header__nav-logo">
+				<button class="header__button-close" type="button" aria-label="Закрыть."></button>
+			</div>
+    	<ul class="header__menu menu">
+    	  <li class="menu__link"><a href="#" class="menu__text">О нас</a></li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Лаборатория</a></li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Проекты</a></li>
+    	  <li class="menu__link menu__link_active">
+					<a href="#" class="menu__text">Образование</a>
+					<ul class="header__submenu submenu" id="education-submenu">
+						<li class="submenu__link"><a href="#" class="submenu__text">Магистратура</a></li>
+						<li class="submenu__link"><a href="#" class="submenu__text">Аспирантура</a></li>
+					</ul>
+				</li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Публикации</a></li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Команда</a></li>
+    	  <li class="menu__link"><a href="#" class="menu__text">Связаться</a></li>
+    	</ul>
+		</nav>
+  </header>
+
+	<main class="body__content content">
 		<section class="main-block">
 			<div class="main-block__background">
 				<img src="./images/main-block/Background.png" alt="Фоновое изображние">
@@ -37,6 +50,200 @@
 				</div>
 			</div>
 		</section>
+
+		<section class="words-about-us">
+			<div class="words-about-us__container">
+				<div class="words-about-us__title-block">
+					<h2 class="words-about-us__title">Несколько слов о нас</h2>
+					<p class="words-about-us__subtitle">Национальный центр когнитивных разработок – центр национальной
+						технологической инициативы (НТИ), получивший государственную поддержку по направлению
+						«Технологии
+						машинного обучения и когнитивные технологии».</p>
+				</div>
+				<div class="words-about-us__slider-block">
+					<div class="words-about-us__arrows">
+						<div class="words-about-us__arrow words-about-us__arrow_type-prev">
+							<img src="./images/card-news/arrow-prev.svg" alt="">
+						</div>
+						<div class="words-about-us__arrow words-about-us__arrow_type-next">
+							<img src="./images/card-news/arrow-next.svg" alt="">
+						</div>
+					</div>
+					<div class="words-about-us__slider swiper">
+						<div class="words-about-us__wrapper swiper-wrapper">
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Понедельник, 5 июля 2021г</div>
+											<div class="card-news__heading">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ:
+												СТУДЕНТЫ
+												ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</div>
+										</div>
+										<p class="card-news__text">Университет ИТМО провел научно-исследовательскую
+											стажировку для группы магистрантов из Евразийского национального
+											университета имени Л.Н. Гумилева. Ведущие преподаватели в течение десяти
+											дней рассказывали им об основах машинного обучения.</p>
+									</div>
+
+								</article>
+							</div>
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Понедельник, 5 июля 2021г</div>
+											<div class="card-news__heading">АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО
+												ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…</div>
+										</div>
+										<p class="card-news__text">Команда ИТМО стала лучшей на международном финале
+											RoboCup-2021. Успех ребятам принес Роберт Роботецкий — робот-виртуоз,
+											исполнивший знаменитый французский романс «Под небом Парижа». В подготовке
+											команды участвовали сотрудники лаборатории.</p>
+									</div>
+								</article>
+							</div>
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Суббота, 3 июля 2021г</div>
+											<div class="card-news__heading">ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ
+												ВЫПУСКНОЙ ITMO. LIVE — 2021</div>
+										</div>
+										<p class="card-news__text">Команда ИТМО сделала многое, чтобы вернуть формат
+											выпускного этого и прошлого года. Из-за эпидемиологической ситуации отменена
+											развлекательная часть, но сохранилась торжественная. Выпускники смогли
+											получить дипломы из рук деканов и услышать поздравления ректора.</p>
+									</div>
+								</article>
+							</div>
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Пятница, 2 июля 2021г</div>
+											<div class="card-news__heading">«LEAVING THE DIGITAL» — ИЛИ КАК СОЕДИНИТЬ
+												ЦИФРОВОЕ, ТЕХНОЛОГИЧЕСКОЕ И БИОЛОГ…</div>
+										</div>
+										<p class="card-news__text">Преподаватели центра Art & Science Университета ИТМО
+											провели открытый воркшоп, посвященный созданию произведений, объединяющих в
+											себе биологическую и синтетическую среды. Серия занятий приурочена к
+											приемной кампании в магистратуру центра.</p>
+									</div>
+								</article>
+							</div>
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Пятница, 2 июля 2021г</div>
+											<div class="card-news__heading">В ИТМО ЗАПУСКАЕТСЯ ПЕРВАЯ ПРОЕТНАЯ
+												МАГИСТРАТУРА — ДЛЯ АБИТУРИЕНТОВ ФАКУЛЬТЕТА П…</div>
+										</div>
+										<p class="card-news__text">Особенность нового формата магистратуры в том, что
+											студенты смогут составлять программу своего обучения, выбирать только те
+											курсы, которые им интересны, а главное — работать над технологически сложным
+											проектом под руководством менторов из топовых IT-компаний.</p>
+									</div>
+								</article>
+							</div>
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Пятница, 2 июля 2021г</div>
+											<div class="card-news__heading">КОГДА НЕ ЗАНИМАЕШЬСЯ СВОИМ ОБРАЗОВАНИЕМ,
+												МОЖНО ПРИЙТИ К СОТСТОЯНИ…</div>
+										</div>
+										<p class="card-news__text">Владислав Танков поступил в ИТМО будучи специалистом
+											в компании JetBrains. На одном из хакатонов в рамках программы с JetBrains
+											он сделал плагин для проверки грамотности текстов в среде разработки
+											IntelliJ IDEA. После окончания магистратуры Владислав возглавил команду
+											разработки.</p>
+									</div>
+								</article>
+							</div>
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Четверг, 1 июля 2021г</div>
+											<div class="card-news__heading">СТУДЕНТЫ ИТМО И ВЫПУСКНИКИ ЛЭТИ РАЗРАБОТАЛИ
+												МОДУЛЬ ДЛЯ БЫ…</div>
+										</div>
+										<p class="card-news__text">Интеллектуальный модуль для станций зарядки позволяет
+											заряжать накопители в электрокарах и электросамокатах быстрее, чем при
+											питании от сети. Программное обеспечение модуля обеспечивает защиту в случае
+											аварийных ситуаций и повышает эффективность всего зарядного устройства.</p>
+									</div>
+								</article>
+							</div>
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Четверг, 1 июля 2021г</div>
+											<div class="card-news__heading">КАКИЕ СУЩЕСТВУЮТ ВАКЦИНЫ, КАК ИХ ИСПЫТЫВАЮТ,
+												И ПО КАКИМ ПРИНЦЫПАМ ИХ СЛЕДУ…</div>
+										</div>
+										<p class="card-news__text">Вакцинация от коронавируса стала одной из главных
+											тем. Весь мир следит за количеством привитых. Прививочная кампания дает
+											результат — снижается смертность, количество госпитализаций. Но вокруг
+											вакцинации остается много мифов, которые вызывают у скептиков споры.</p>
+									</div>
+								</article>
+							</div>
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Среда, 30 июня 2021г</div>
+											<div class="card-news__heading">УНИВЕРСИТЕТ ИТМО ЗАПУСКАЕТ НОВУЮ
+												КОРПОРАТИВНУЮ СПЕЦИАЛИЗАЦИЮ В МАГИСТРА…</div>
+										</div>
+										<p class="card-news__text">Партнером нового направления станет Napoleon IT.
+											Сотрудники компании и преподаватели ИТМО будут готовить магистров, которые
+											смогут работать в проектах, связанных с распознаванием лиц, технологиями
+											deepfake, созданием приложений для распознавания предметов.</p>
+									</div>
+								</article>
+							</div>
+							<div class="words-about-us__slide swiper-slide">
+								<article class="card-news">
+									<div class="card-news__container">
+										<img src="./images/card-news/Vector.svg" alt="Булавка" class="card-news__image">
+										<div class="card-news__title">
+											<div class="card-news__date">Среда, 30 июня 2021г</div>
+											<div class="card-news__heading">СТУДЕНТКА И СОТРУДНИЦА ИТМО АННА ВОЛОШИНА
+												ПОЛУЧИЛА БРОНЗОВОГО СФИН...</div>
+										</div>
+										<p class="card-news__text">В Петропавловской крепости состоялась торжественная
+											церемония вручения наград лучшим выпускникам Санкт-Петербурга. Среди тех,
+											кто получил памятную статуэтку, была выпускница факультета технологического
+											менеджмента и инноваций Анна Волошина. </p>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+					<div class="words-about-us__pagination"></div>
+				</div>
+		</section>
+	</main>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./script/slider.js"></script>
+
+
 		<section class="research-lab">
 			<h2 class="block__title">Industrial Ai research lab</h2>
 			<div class="block__content">
@@ -89,7 +296,38 @@
 			</div>
 
 		</section>
-		<section class="popup">
+
+		<section class="content__block-3 block-3">
+
+		</section>
+
+		<section class="content__block-4 block-4">
+
+		</section>
+
+		<section class="content__block-5 block-5">
+
+		</section>
+
+		<section class="content__block-6 block-6">
+
+		</section>
+
+		<section class="content__block-7 block-7">
+
+		</section>
+
+		<section class="content__block-8 block-8">
+
+		</section>
+	</main>
+
+	<footer class="body__footer footer">
+
+	</footer>
+
+	<section class="body__popups popups">
+		<div class="popup">
 			<div class="popup__container">
 				<img class="popup__image" src="./images/popup/image43.png" alt="Изображение носит иллюстративный характер">
 				<div class="popup__description">
@@ -169,6 +407,7 @@
 					<img class="education__image" src="./images/education/image2.png" alt="Наши магистранты">
 				</div>
 			</div>
+
 
 			<div class="education__buttons">
 				<button class="education__button button1 education__button_active" type="button">Аспирантура</button>
@@ -257,6 +496,74 @@
 		</section>
 	</main>
 
+		</div>
+
+	</section>
+
+	<footer class="footer">
+		<div class="footer__information">
+		<img src="./images/footer/Footer-logo.svg" alt="Изображение логотипа в подвале" class="footer__logo">
+		<div class="footer__mobile-description">Информация © 2020 Университет ИТМО</div>
+		</div>
+		<div class="footer__content">
+			<div class="footer__description">
+				<p class="footer__description-copyright">Информация © 2020 Университет ИТМО</p>
+				<p class="footer__description-copyright">Национальный центр когнитивных разработок – центр национальной
+					технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного
+					обучения и когнитивные технологии». Инфраструктурная основа взаимодействия научных, образовательных и
+					промышленных организаций</p>
+			</div>
+<div class="footer__links">
+			<div class="footer__about">
+				<h4 class="footer__about-heading"> О центре</h4>
+				<nav class="footer__about-links">
+					<a href="#" class="footer__about-link">О нас</a><br>
+					<a href="#" class="footer__about-link">Главное</a>
+					<a href="#" class="footer__about-link">Команда</a>
+					<a href="#" class="footer__about-link">Лаборатория</a>
+					<a href="#" class="footer__about-link">Контакты</a>
+				</nav>
+			</div>
+
+			<div class="footer__about footer__development">
+				<h4 class="footer__development-heading"> Развитие</h4>
+				<nav class="footer__development-links">
+					<a href="#" class="footer__about-link footer__development-link">Образование</a>
+					<a href="#" class="footer__about-link footer__development">Аспирантура</a>
+					<a href="#" class="footer__about-link footer__development-link">Магистатура</a>
+					<a href="#" class="footer__about-link footer__development-link">Проекты</a>
+				</nav>
+			</div>
+</div>
+			<div class="footer__contacts">
+				<h3 class="footer__contacts-heading">г.Санкт-Петербург</h3>
+				<div class="footer__contacts-information">
+					<p class="footer__contacts-info">199034, Санкт-Петербург,
+						Биржевая линия, д. 4, лит. М,
+						ауд. 302С</p>
+					<p class="footer__contacts-info">+7 (812) 337-64-90
+						<br>+7 (812) 337-64-94</p>
+					<p class="footer__contacts-info">anna.lutsenko@itmo.ru</p>
+				</div>
+				<h4 class="footer__rols-heading">Соцсети</h4>
+				<a href="#" class="footer__column-link"><img src="./images/footer/VK.svg" alt="Логотип ВKонтакте"
+																										 class="footer__social-icon"></a>
+				<a href="#" class="footer__column-link"><img src="./images/footer/Facebook.svg" alt="Логотип Facebook"
+																										 class="footer__social-icon"></a>
+				<a href="#" class="footer__column-link"><img src="./images/footer/Telegram.svg" alt="Логотип Telegram"
+																										 class="footer__social-icon"></a>
+				<a href="#" class="footer__column-link"><img src="./images/footer/Insta.svg" alt="Логотип instagram"
+																										 class="footer__social-icon"></a>
+				<a href="#" class="footer__column-link"><img src="./images/footer/YouTube.svg" alt="Логотип YouTube"
+																										 class="footer__social-icon"></a>
+			</div>
+		</div>
+		<p class="footer__author">Сделано студентами Яндекс. Практикума</p>
+	</footer>
+
+
 </body>
+
 <script src="./pages/index.js" type="module"></script>
+<script src="./pages/header.js"></script>
 </html>
