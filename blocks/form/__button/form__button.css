@@ -11,6 +11,11 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
+    transition: background-color .3s ease;
+}
+
+.form__button:hover {
+    background-color: #001337;
 }
 
 @media screen and (max-width: 1130px) {
